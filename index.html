@@ -1,0 +1,164 @@
+<!-- honorservicioseticos.com - Estructura web actualizada -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Honor Servicios Éticos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 80px;
+      margin-bottom: 0.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav li {
+      margin: 0 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: white;
+      margin-top: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    label, input, textarea {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+    }
+
+    input, textarea {
+      padding: 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #111;
+      color: white;
+      padding: 0.75rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button:hover {
+      background-color: #333;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Honor Servicios Éticos">
+    <h1>Honor Servicios Éticos</h1>
+    <nav>
+      <ul>
+        <li><a href="#quienes">Quiénes somos</a></li>
+        <li><a href="#servicios">Nuestros servicios</a></li>
+        <li><a href="#tarifas">Tarifas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="quienes">
+    <h2>Quiénes somos</h2>
+    <p>Somos Juan Antonio y Rocío, cofundadores de Honor Servicios Éticos. Con años de experiencia en el sector funerario, hemos creado esta asesoría para ayudarte en los momentos más difíciles con honestidad, cercanía y sin ningún interés comercial oculto.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros servicios</h2>
+    <h3>Nivel 1 – Honor</h3>
+    <p>Te explicamos qué va a suceder, cómo actuar, y te damos las herramientas para que puedas encargarte tú mismo con toda la información.</p>
+
+    <h3>Nivel 2 – Servicios</h3>
+    <p>Te acompañamos presencialmente en la contratación para asegurarnos de que solo contratas lo que realmente necesitas, ni más ni menos.</p>
+
+    <h3>Nivel 3 – Ética</h3>
+    <p>Nos encargamos absolutamente de todo. Actuamos como tus representantes, contratamos el servicio completo según tus preferencias, y tú solo recibes los datos del tanatorio y la hora.</p>
+  </section>
+
+  <section id="tarifas">
+    <h2>Tarifas</h2>
+    <p>Todos nuestros servicios tienen un precio fijo, claro y justo. No cobramos comisiones ni añadimos costes innecesarios.</p>
+    <ul>
+      <li>Nivel 1 – Honor: 59 €</li>
+      <li>Nivel 2 – Servicios: 129 €</li>
+      <li>Nivel 3 – Ética: 199 €</li>
+    </ul>
+    <p><strong>Tarifa nocturna:</strong> Si el fallecimiento ocurre entre las 22:00 y las 08:00, se aplica un recargo del 20%.</p>
+    <p><strong>Pago a plazos:</strong> Disponible bajo compromiso firmado.</p>
+    <p><strong>Planificación anticipada:</strong> También puedes dejarnos todo preparado antes de que ocurra el fallecimiento.</p>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes escribirnos a nuestro correo profesional y te responderemos lo antes posible:</p>
+    <p><strong>Email:</strong> juanantonioperez.pro@gmail.com</p>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Honor Servicios Éticos</p>
+  </footer>
+</body>
+</html>
